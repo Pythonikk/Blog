@@ -1,3 +1,4 @@
+<header><%= link_to "Index", root_path %></header>
 <h1><%= @article.title %></h1>
 
 <p><%= @article.body %></p>
@@ -9,10 +10,11 @@
                   turbo_confirm: "Are you sure?"
                   } %></li>
 </ul>
+<br>
 
 <h2>Comments</h2>
 <%# renders the partial _comment once for each comment that is in the @article.comments collection. %>
 <%= render @article.comments %>
-
+<br>
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
