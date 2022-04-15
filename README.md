@@ -4,7 +4,9 @@ An assignment through [The Odin Project](https://www.theodinproject.com/lessons/
 
 The goal here was to get a feel for the process of creating a simple Rails application-- to see how the components of MVC talk to each other, and experiment with some of these new methods. A minor goal was to practice deploying with Heroku.
 
-My implementation follows the recommendations of the tutorial with the addition of a header on each page linking back to the root page, rework of the way comments on an article appear, and some basic html formatting like <br> tags.
+My implementation follows the recommendations of the tutorial with the addition of a header on each page linking back to the root page, rework of the way comments on an article appear, and some basic html formatting like line breaks.
+
+Check it live on Heroku: [Blog App](https://bloggyblueblog.herokuapp.com/)
 
 ## Using Postgresql
 
